@@ -13,7 +13,6 @@
 		F0DF776414DDB82700B673DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0DF776214DDB82700B673DC /* InfoPlist.strings */; };
 		F0DF776614DDB82700B673DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF776514DDB82700B673DC /* main.m */; };
 		F0DF776A14DDB82700B673DC /* KIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF776914DDB82700B673DC /* KIAppDelegate.m */; };
-		F0DF776D14DDB82700B673DC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DF776B14DDB82700B673DC /* MainStoryboard_iPhone.storyboard */; };
 		F0DF777014DDB82700B673DC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DF776E14DDB82700B673DC /* MainStoryboard_iPad.storyboard */; };
 		F0DF777314DDB82700B673DC /* KIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF777214DDB82700B673DC /* KIViewController.m */; };
 		F0DF777B14DDB82700B673DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DF777A14DDB82700B673DC /* SenTestingKit.framework */; };
@@ -21,6 +20,12 @@
 		F0DF777D14DDB82700B673DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DF775B14DDB82700B673DC /* Foundation.framework */; };
 		F0DF778514DDB82700B673DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0DF778314DDB82700B673DC /* InfoPlist.strings */; };
 		F0DF778814DDB82700B673DC /* BeautifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF778714DDB82700B673DC /* BeautifyUITests.m */; };
+		F0DF779E14DDB8FE00B673DC /* moscone_west.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DF779C14DDB8FE00B673DC /* moscone_west.png */; };
+		F0DF779F14DDB8FE00B673DC /* baby01.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DF779D14DDB8FE00B673DC /* baby01.png */; };
+		F0DF77A614DDB99700B673DC /* KIBorderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF77A114DDB99700B673DC /* KIBorderedView.m */; };
+		F0DF77A714DDB99700B673DC /* KIPhotoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF77A314DDB99700B673DC /* KIPhotoDetailsViewController.m */; };
+		F0DF77A814DDB99700B673DC /* PMShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF77A514DDB99700B673DC /* PMShadowView.m */; };
+		F0DF77AB14DDBA8700B673DC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DF77AA14DDBA8700B673DC /* MainStoryboard_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +43,30 @@
 		F0DF775914DDB82700B673DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0DF775B14DDB82700B673DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0DF775D14DDB82700B673DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F0DF776114DDB82700B673DC /* BeautifyUI-Info.plist */ = {isa = PBXFileReference; path = "BeautifyUI-Info.plist"; sourceTree = "<group>"; };
+		F0DF776114DDB82700B673DC /* BeautifyUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeautifyUI-Info.plist"; sourceTree = "<group>"; };
 		F0DF776314DDB82700B673DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0DF776514DDB82700B673DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F0DF776714DDB82700B673DC /* BeautifyUI-Prefix.pch */ = {isa = PBXFileReference; path = "BeautifyUI-Prefix.pch"; sourceTree = "<group>"; };
-		F0DF776814DDB82700B673DC /* KIAppDelegate.h */ = {isa = PBXFileReference; path = KIAppDelegate.h; sourceTree = "<group>"; };
+		F0DF776714DDB82700B673DC /* BeautifyUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeautifyUI-Prefix.pch"; sourceTree = "<group>"; };
+		F0DF776814DDB82700B673DC /* KIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIAppDelegate.h; sourceTree = "<group>"; };
 		F0DF776914DDB82700B673DC /* KIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIAppDelegate.m; sourceTree = "<group>"; };
-		F0DF776C14DDB82700B673DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		F0DF776F14DDB82700B673DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F0DF777114DDB82700B673DC /* KIViewController.h */ = {isa = PBXFileReference; path = KIViewController.h; sourceTree = "<group>"; };
+		F0DF777114DDB82700B673DC /* KIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIViewController.h; sourceTree = "<group>"; };
 		F0DF777214DDB82700B673DC /* KIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIViewController.m; sourceTree = "<group>"; };
 		F0DF777914DDB82700B673DC /* BeautifyUITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifyUITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DF777A14DDB82700B673DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F0DF778214DDB82700B673DC /* BeautifyUITests-Info.plist */ = {isa = PBXFileReference; path = "BeautifyUITests-Info.plist"; sourceTree = "<group>"; };
+		F0DF778214DDB82700B673DC /* BeautifyUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeautifyUITests-Info.plist"; sourceTree = "<group>"; };
 		F0DF778414DDB82700B673DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F0DF778614DDB82700B673DC /* BeautifyUITests.h */ = {isa = PBXFileReference; path = BeautifyUITests.h; sourceTree = "<group>"; };
+		F0DF778614DDB82700B673DC /* BeautifyUITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeautifyUITests.h; sourceTree = "<group>"; };
 		F0DF778714DDB82700B673DC /* BeautifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifyUITests.m; sourceTree = "<group>"; };
+		F0DF779C14DDB8FE00B673DC /* moscone_west.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moscone_west.png; sourceTree = "<group>"; };
+		F0DF779D14DDB8FE00B673DC /* baby01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby01.png; sourceTree = "<group>"; };
+		F0DF77A014DDB99700B673DC /* KIBorderedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIBorderedView.h; sourceTree = "<group>"; };
+		F0DF77A114DDB99700B673DC /* KIBorderedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIBorderedView.m; sourceTree = "<group>"; };
+		F0DF77A214DDB99700B673DC /* KIPhotoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIPhotoDetailsViewController.h; sourceTree = "<group>"; };
+		F0DF77A314DDB99700B673DC /* KIPhotoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIPhotoDetailsViewController.m; sourceTree = "<group>"; };
+		F0DF77A414DDB99700B673DC /* PMShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMShadowView.h; sourceTree = "<group>"; };
+		F0DF77A514DDB99700B673DC /* PMShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMShadowView.m; sourceTree = "<group>"; };
+		F0DF77AA14DDBA8700B673DC /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +126,16 @@
 		F0DF775F14DDB82700B673DC /* BeautifyUI */ = {
 			isa = PBXGroup;
 			children = (
+				F0DF77A914DDB9AA00B673DC /* Custom Views */,
+				F0DF779914DDB8D400B673DC /* images */,
 				F0DF776814DDB82700B673DC /* KIAppDelegate.h */,
 				F0DF776914DDB82700B673DC /* KIAppDelegate.m */,
-				F0DF776B14DDB82700B673DC /* MainStoryboard_iPhone.storyboard */,
+				F0DF77AA14DDBA8700B673DC /* MainStoryboard_iPhone.storyboard */,
 				F0DF776E14DDB82700B673DC /* MainStoryboard_iPad.storyboard */,
 				F0DF777114DDB82700B673DC /* KIViewController.h */,
 				F0DF777214DDB82700B673DC /* KIViewController.m */,
+				F0DF77A214DDB99700B673DC /* KIPhotoDetailsViewController.h */,
+				F0DF77A314DDB99700B673DC /* KIPhotoDetailsViewController.m */,
 				F0DF776014DDB82700B673DC /* Supporting Files */,
 			);
 			path = BeautifyUI;
@@ -152,6 +169,26 @@
 				F0DF778314DDB82700B673DC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0DF779914DDB8D400B673DC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF779C14DDB8FE00B673DC /* moscone_west.png */,
+				F0DF779D14DDB8FE00B673DC /* baby01.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F0DF77A914DDB9AA00B673DC /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF77A014DDB99700B673DC /* KIBorderedView.h */,
+				F0DF77A114DDB99700B673DC /* KIBorderedView.m */,
+				F0DF77A414DDB99700B673DC /* PMShadowView.h */,
+				F0DF77A514DDB99700B673DC /* PMShadowView.m */,
+			);
+			name = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0DF776414DDB82700B673DC /* InfoPlist.strings in Resources */,
-				F0DF776D14DDB82700B673DC /* MainStoryboard_iPhone.storyboard in Resources */,
 				F0DF777014DDB82700B673DC /* MainStoryboard_iPad.storyboard in Resources */,
+				F0DF779E14DDB8FE00B673DC /* moscone_west.png in Resources */,
+				F0DF779F14DDB8FE00B673DC /* baby01.png in Resources */,
+				F0DF77AB14DDBA8700B673DC /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +304,9 @@
 				F0DF776614DDB82700B673DC /* main.m in Sources */,
 				F0DF776A14DDB82700B673DC /* KIAppDelegate.m in Sources */,
 				F0DF777314DDB82700B673DC /* KIViewController.m in Sources */,
+				F0DF77A614DDB99700B673DC /* KIBorderedView.m in Sources */,
+				F0DF77A714DDB99700B673DC /* KIPhotoDetailsViewController.m in Sources */,
+				F0DF77A814DDB99700B673DC /* PMShadowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +335,6 @@
 				F0DF776314DDB82700B673DC /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F0DF776B14DDB82700B673DC /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0DF776C14DDB82700B673DC /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		F0DF776E14DDB82700B673DC /* MainStoryboard_iPad.storyboard */ = {
@@ -444,6 +478,7 @@
 				F0DF778D14DDB82700B673DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0DF778E14DDB82700B673DC /* Build configuration list for PBXNativeTarget "BeautifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +487,7 @@
 				F0DF779014DDB82700B673DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
