@@ -26,6 +26,13 @@
 		F0DF77A714DDB99700B673DC /* KIPhotoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF77A314DDB99700B673DC /* KIPhotoDetailsViewController.m */; };
 		F0DF77A814DDB99700B673DC /* PMShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF77A514DDB99700B673DC /* PMShadowView.m */; };
 		F0DF77AB14DDBA8700B673DC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DF77AA14DDBA8700B673DC /* MainStoryboard_iPhone.storyboard */; };
+		F0DF77B614DE32A000B673DC /* KIBeautifyUIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF77B514DE32A000B673DC /* KIBeautifyUIConstants.m */; };
+		F0DF77BA14DE41CE00B673DC /* KIPhotoShadowDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF77B914DE41CE00B673DC /* KIPhotoShadowDetailsViewController.m */; };
+		F0DF77C114DE45B200B673DC /* KIGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF77C014DE45B200B673DC /* KIGradientView.m */; };
+		F0DF77D014E0D6EC00B673DC /* light_blue_paper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DF77CE14E0D6EC00B673DC /* light_blue_paper@2x.png */; };
+		F0DF77D114E0D6EC00B673DC /* light_blue_paper.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DF77CF14E0D6EC00B673DC /* light_blue_paper.png */; };
+		F0DF77D414E0D9B800B673DC /* blue_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DF77D214E0D9B800B673DC /* blue_button@2x.png */; };
+		F0DF77D514E0D9B800B673DC /* blue_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DF77D314E0D9B800B673DC /* blue_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +74,16 @@
 		F0DF77A414DDB99700B673DC /* PMShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMShadowView.h; sourceTree = "<group>"; };
 		F0DF77A514DDB99700B673DC /* PMShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMShadowView.m; sourceTree = "<group>"; };
 		F0DF77AA14DDBA8700B673DC /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F0DF77B414DE32A000B673DC /* KIBeautifyUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIBeautifyUIConstants.h; sourceTree = "<group>"; };
+		F0DF77B514DE32A000B673DC /* KIBeautifyUIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIBeautifyUIConstants.m; sourceTree = "<group>"; };
+		F0DF77B814DE41CE00B673DC /* KIPhotoShadowDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIPhotoShadowDetailsViewController.h; sourceTree = "<group>"; };
+		F0DF77B914DE41CE00B673DC /* KIPhotoShadowDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIPhotoShadowDetailsViewController.m; sourceTree = "<group>"; };
+		F0DF77BF14DE45B200B673DC /* KIGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIGradientView.h; sourceTree = "<group>"; };
+		F0DF77C014DE45B200B673DC /* KIGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIGradientView.m; sourceTree = "<group>"; };
+		F0DF77CE14E0D6EC00B673DC /* light_blue_paper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light_blue_paper@2x.png"; sourceTree = "<group>"; };
+		F0DF77CF14E0D6EC00B673DC /* light_blue_paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_blue_paper.png; sourceTree = "<group>"; };
+		F0DF77D214E0D9B800B673DC /* blue_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue_button@2x.png"; sourceTree = "<group>"; };
+		F0DF77D314E0D9B800B673DC /* blue_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +143,7 @@
 		F0DF775F14DDB82700B673DC /* BeautifyUI */ = {
 			isa = PBXGroup;
 			children = (
+				F0DF776014DDB82700B673DC /* Supporting Files */,
 				F0DF77A914DDB9AA00B673DC /* Custom Views */,
 				F0DF779914DDB8D400B673DC /* images */,
 				F0DF776814DDB82700B673DC /* KIAppDelegate.h */,
@@ -136,7 +154,10 @@
 				F0DF777214DDB82700B673DC /* KIViewController.m */,
 				F0DF77A214DDB99700B673DC /* KIPhotoDetailsViewController.h */,
 				F0DF77A314DDB99700B673DC /* KIPhotoDetailsViewController.m */,
-				F0DF776014DDB82700B673DC /* Supporting Files */,
+				F0DF77B414DE32A000B673DC /* KIBeautifyUIConstants.h */,
+				F0DF77B514DE32A000B673DC /* KIBeautifyUIConstants.m */,
+				F0DF77B814DE41CE00B673DC /* KIPhotoShadowDetailsViewController.h */,
+				F0DF77B914DE41CE00B673DC /* KIPhotoShadowDetailsViewController.m */,
 			);
 			path = BeautifyUI;
 			sourceTree = "<group>";
@@ -176,6 +197,10 @@
 			children = (
 				F0DF779C14DDB8FE00B673DC /* moscone_west.png */,
 				F0DF779D14DDB8FE00B673DC /* baby01.png */,
+				F0DF77D214E0D9B800B673DC /* blue_button@2x.png */,
+				F0DF77D314E0D9B800B673DC /* blue_button.png */,
+				F0DF77CE14E0D6EC00B673DC /* light_blue_paper@2x.png */,
+				F0DF77CF14E0D6EC00B673DC /* light_blue_paper.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -187,6 +212,8 @@
 				F0DF77A114DDB99700B673DC /* KIBorderedView.m */,
 				F0DF77A414DDB99700B673DC /* PMShadowView.h */,
 				F0DF77A514DDB99700B673DC /* PMShadowView.m */,
+				F0DF77BF14DE45B200B673DC /* KIGradientView.h */,
+				F0DF77C014DE45B200B673DC /* KIGradientView.m */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -267,6 +294,10 @@
 				F0DF779E14DDB8FE00B673DC /* moscone_west.png in Resources */,
 				F0DF779F14DDB8FE00B673DC /* baby01.png in Resources */,
 				F0DF77AB14DDBA8700B673DC /* MainStoryboard_iPhone.storyboard in Resources */,
+				F0DF77D014E0D6EC00B673DC /* light_blue_paper@2x.png in Resources */,
+				F0DF77D114E0D6EC00B673DC /* light_blue_paper.png in Resources */,
+				F0DF77D414E0D9B800B673DC /* blue_button@2x.png in Resources */,
+				F0DF77D514E0D9B800B673DC /* blue_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +338,9 @@
 				F0DF77A614DDB99700B673DC /* KIBorderedView.m in Sources */,
 				F0DF77A714DDB99700B673DC /* KIPhotoDetailsViewController.m in Sources */,
 				F0DF77A814DDB99700B673DC /* PMShadowView.m in Sources */,
+				F0DF77B614DE32A000B673DC /* KIBeautifyUIConstants.m in Sources */,
+				F0DF77BA14DE41CE00B673DC /* KIPhotoShadowDetailsViewController.m in Sources */,
+				F0DF77C114DE45B200B673DC /* KIGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

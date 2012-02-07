@@ -7,6 +7,7 @@
 //
 
 #import "KIPhotoDetailsViewController.h"
+#import "KIBeautifyUIConstants.h"
 
 typedef enum {
     KITableRowPictureCamera,
@@ -43,19 +44,23 @@ typedef enum {
 }
 */
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationController.navigationBar.tintColor = [UIColor babyPinkColor];
 }
-*/
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+}
+
+- (void)viewWillDisappear:(BOOL)animated 
+{
+    self.navigationController.navigationBar.tintColor = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
