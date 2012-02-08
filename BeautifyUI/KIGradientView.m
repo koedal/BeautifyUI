@@ -58,12 +58,8 @@
     locations[1] = 1.0;
 
     gradient = CGGradientCreateWithColors(space, (__bridge CFArrayRef)colors, locations);
-//    CGContextAddPath(context, path);
     CGContextSaveGState(context);
-//    CGContextEOClip(context);
 
-//    CGContextDrawLinearGradient(context, gradient, point, point2, (kCGGradientDrawsBeforeStartLocation | kCGGradientDrawsAfterEndLocation));
-//    CGContextDrawLinearGradient(context, gradient, point, point2, (kCGGradientDrawsBeforeStartLocation | kCGGradientDrawsAfterEndLocation));
     CGFloat point2Radius = (MAX(rect.size.width, rect.size.height) / 2.0) - 5;
     
     CGFloat yScale = (MIN(rect.size.width, rect.size.height) / MAX(rect.size.width, rect.size.height));
@@ -76,7 +72,6 @@
     CGContextDrawRadialGradient(context, gradient, point, 0.0, point2, point2Radius, (kCGGradientDrawsAfterEndLocation));
     CGContextRestoreGState(context);
     CGGradientRelease(gradient);
-//    CGPathRelease(path);
     CGColorSpaceRelease(space);
 }
 
