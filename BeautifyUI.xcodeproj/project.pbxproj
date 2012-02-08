@@ -35,6 +35,7 @@
 		F0DF77D514E0D9B800B673DC /* blue_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DF77D314E0D9B800B673DC /* blue_button.png */; };
 		F0DF77D714E231E300B673DC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DF77D614E231E300B673DC /* Icon.png */; };
 		F0DF77D914E231E700B673DC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DF77D814E231E700B673DC /* Icon@2x.png */; };
+		F0DF77DF14E2443700B673DC /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = F0DF77DE14E2443600B673DC /* License.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		F0DF77D314E0D9B800B673DC /* blue_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_button.png; sourceTree = "<group>"; };
 		F0DF77D614E231E300B673DC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		F0DF77D814E231E700B673DC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F0DF77DE14E2443600B673DC /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		F0DF774A14DDB82600B673DC = {
 			isa = PBXGroup;
 			children = (
+				F0DF77DE14E2443600B673DC /* License.txt */,
 				F0DF77D814E231E700B673DC /* Icon@2x.png */,
 				F0DF77D614E231E300B673DC /* Icon.png */,
 				F0DF775F14DDB82700B673DC /* BeautifyUI */,
@@ -306,6 +309,7 @@
 				F0DF77D514E0D9B800B673DC /* blue_button.png in Resources */,
 				F0DF77D714E231E300B673DC /* Icon.png in Resources */,
 				F0DF77D914E231E700B673DC /* Icon@2x.png in Resources */,
+				F0DF77DF14E2443700B673DC /* License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
